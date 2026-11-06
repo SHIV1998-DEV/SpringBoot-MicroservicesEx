@@ -6,8 +6,8 @@ public class Test {
 	public static void main(String[] args) {
 		
 		AnnotationConfigApplicationContext ac =new AnnotationConfigApplicationContext(MyConfigapp.class);
-		ac.getBean("Con");
-		System.out.println(ac.getBean("Con"));
+		Object A=ac.getBean("Con");
+		System.out.println(A);
 	}
 	
 
